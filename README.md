@@ -5,7 +5,7 @@ This is a full-stack web application built to track trading signals with live Bi
 ## Technical Stack
 - **Frontend:** React, Vite, CSS
 - **Backend:** Node.js, Express
-- **Database:** (Mention your DB here, e.g., PostgreSQL/SQLite)
+- **Database:** (PostgreSQL)
 
 ## Features
 - **Signal Creation:** Add trading pairs with Direction (BUY/SELL), Entry Price, Stop Loss, and Target Price.
