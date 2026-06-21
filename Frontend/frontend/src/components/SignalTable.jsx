@@ -32,7 +32,7 @@ export default function SignalTable() {
           {signals.map((s) => (
             <tr key={s.id} className="text-center border-b">
               <td className="py-2">{s.symbol}</td>
-              <td className={`py-2 font-bold ${s.direction === 'BUY' ? 'text-green-600' : 'text-red-600'}`}>
+              <td className={`py-2 font-bold ${s.direction === 'BUY' ? 'text-buy' : 'text-sell'}`}>
                 {s.direction}
               </td>
               <td className="py-2">{s.entry_price}</td>
